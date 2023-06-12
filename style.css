@@ -1,0 +1,189 @@
+body{
+margin:0;
+}
+
+#up{
+    margin: 0%;
+    background-color: #25263a;
+
+}
+
+#phon-version{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+#main{
+    color: azure;
+    background-color: #25263a;
+    text-align: center;
+    padding: 10%;
+    text-align: center;
+    direction: rtl;
+
+}
+
+#phoncon{
+  
+    color:goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 200px;
+    padding: 5%;
+    width: 70px;
+    height: 70px;
+    font-size: 3em; 
+
+}
+
+#phon{
+    border-radius: 25px;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    margin: 0%;
+
+
+}
+
+#mail{
+    border-radius: 25px;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+
+
+}
+
+#mailcon{
+   
+    color:goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 200px;
+    padding: 5%;
+    width: 70px;
+    height: 70px;
+    font-size: 3em; 
+}
+
+#whatsapp{
+    border-radius: 25px;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+
+}
+
+#whatcon{
+   
+    color:goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 200px;
+    padding: 5%;
+    width: 70px;
+    height: 70px;
+    font-size: 3em; 
+}
+
+#facebook{
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+#bookcon{
+   
+    color:goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 200px;
+    padding: 5%;
+    width: 70px;
+    height: 70px;
+    font-size: 3em; 
+}
+
+#instagram{
+    border-radius: 25px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+
+
+}
+
+#gramcon{
+   
+    color:goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 200px;
+    padding: 5%;
+    width: 70px;
+    height: 70px;
+    font-size: 3em; 
+}
+
+#bookgram{
+    display: flex;
+    text-align: center;
+
+}
+
+#form{
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.b12{
+   background-color:  rgba(218, 165, 32, 245);
+   border:solid 2px aqua;
+   padding:10px;
+}
+
+#footer{
+    background-color: gray;
+    color:azure;
+    padding:1%;
+    text-align: center;
+
+}
+
+
+@media (min-width: 551px){
+
+    #logo{
+        text-align: center;
+    }
+
+    #main{
+        display: flex;
+        text-align: center;
+        padding:5px;
+        padding-right: 18%;
+    }
+
+    #phon-version{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    #bookgram{
+        display: flex;
+    }
+   
+}
+
+
+
+@media (min-width: 699px) {
+    
+}
+
+
+
+
+
+
+    /* background-image: url("images/shoham.jpeg"); */
