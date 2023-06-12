@@ -1,10 +1,29 @@
 body{
 margin:0;
+background-color: #25263a;
+
 }
 
 #up{
     margin: 0%;
     background-color: #25263a;
+    padding:0;
+    text-align: center;
+
+}
+
+#logo{
+    max-width: 200px;
+    height: auto;
+}
+
+
+#main{
+    color: azure;
+    background-color: #25263a;
+    text-align: center;
+    padding: 0;
+    direction: rtl;
 
 }
 
@@ -16,32 +35,24 @@ margin:0;
 
 }
 
-#main{
-    color: azure;
-    background-color: #25263a;
+#bookgram{
+    display: flex;
     text-align: center;
-    padding: 10%;
-    text-align: center;
-    direction: rtl;
 
 }
 
-#phoncon{
-  
+i{
     color:goldenrod;
-    border: 2px solid goldenrod;
-    border-radius: 200px;
     padding: 5%;
     width: 70px;
     height: 70px;
     font-size: 3em; 
-
 }
 
 #phon{
     border-radius: 25px;
-    width: 200px;
-    height: 120px;
+    width: 80px;
+    height: 90px;
     text-align: center;
     margin: 0%;
 
@@ -50,59 +61,42 @@ margin:0;
 
 #mail{
     border-radius: 25px;
-    width: 200px;
-    height: 120px;
+    width: 80px;
+    height: 90px;
     text-align: center;
 
 
-}
-
-#mailcon{
-   
-    color:goldenrod;
-    border: 2px solid goldenrod;
-    border-radius: 200px;
-    padding: 5%;
-    width: 70px;
-    height: 70px;
-    font-size: 3em; 
 }
 
 #whatsapp{
     border-radius: 25px;
-    width: 200px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     text-align: center;
 
 }
 
-#whatcon{
-   
-    color:goldenrod;
-    border: 2px solid goldenrod;
-    border-radius: 200px;
-    padding: 5%;
-    width: 70px;
-    height: 70px;
-    font-size: 3em; 
-}
+#whatcon {
+    animation: jump-shaking 0.83s infinite;
+  }
+
+  
+@keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-9px) }
+    35% { transform: translateY(-9px) rotate(17deg) }
+    55% { transform: translateY(-9px) rotate(-17deg) }
+    65% { transform: translateY(-9px) rotate(17deg) }
+    75% { transform: translateY(-9px) rotate(-17deg) }
+    100% { transform: translateY(0) rotate(0) }
+  }
+  
 
 #facebook{
     border-radius: 25px;
-    width: 200px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     text-align: center;
-}
-
-#bookcon{
-   
-    color:goldenrod;
-    border: 2px solid goldenrod;
-    border-radius: 200px;
-    padding: 5%;
-    width: 70px;
-    height: 70px;
-    font-size: 3em; 
 }
 
 #instagram{
@@ -114,23 +108,6 @@ margin:0;
 
 }
 
-#gramcon{
-   
-    color:goldenrod;
-    border: 2px solid goldenrod;
-    border-radius: 200px;
-    padding: 5%;
-    width: 70px;
-    height: 70px;
-    font-size: 3em; 
-}
-
-#bookgram{
-    display: flex;
-    text-align: center;
-
-}
-
 #form{
     text-align: center;
     background-color: goldenrod;
@@ -138,22 +115,29 @@ margin:0;
 
 .b12{
    background-color:  rgba(218, 165, 32, 245);
-   border:solid 2px aqua;
    padding:10px;
+
 }
 
 #footer{
     background-color: gray;
     color:azure;
     padding:1%;
+    margin-top: 100%;
     text-align: center;
 
 }
 
 
-@media (min-width: 551px){
+@media (min-width: 600px){
 
     #logo{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #photo{
         text-align: center;
     }
 
@@ -178,11 +162,124 @@ margin:0;
 
 
 @media (min-width: 699px) {
+     /*responsive*/
+    #logo{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-left: 30%;
+    }
+
+    #main{
+        display: flex;
+        text-align: center;
+        padding:5px;
+        padding-right: 8%;
+    }
+   
+    #phon-version{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+
+    #bookgram{
+        display: flex;
+        text-align: center;
+        width: 50%;
     
+    }
+   
+    #phon{
+        border-radius: 25px;
+        width: 33.3%;
+        height: 90px;
+        text-align: center;
+        margin: 0%;
+    
+    
+    }
+
+    #mail{
+        border-radius: 25px;
+        width: 33.3%;
+        height: 90px;
+        text-align: center;
+    
+    
+    }
+
+    #whatsapp{
+        border-radius: 25px;
+        width: 33.3%;
+        height: 90px;
+        text-align: center;
+    
+    }
+    
+    #facebook{
+        border-radius: 25px;
+        width: 50%;
+        height: 90px;
+        text-align: center;
+    }
+
+    #instagram{
+        border-radius: 25px;
+        width: 50%;
+        height: 90px;
+        text-align: center;
+    
+    
+    }
+    /*icons*/
+    i{
+      
+        color:goldenrod;
+        border: 2px solid goldenrod;
+        border-radius: 100px;
+        padding: 5%;
+        width: 70px;
+        height: 70px;
+        font-size: 3em; 
+        position: relative;
+        margin: 0;
+    
+    }
+    
+    
+    #form{
+        text-align: center;
+        background-color: goldenrod;
+    }
+    
+    .b12{
+       background-color:  rgba(218, 165, 32, 245);
+       border:solid 2px aqua;
+       padding:50px;
+    }
+    
+    #footer{
+        background-color: gray;
+        color:azure;
+        padding:1%;
+        text-align: center;
+    
+    }
 }
 
 
 
+
+
+
+
+    /* background-image: url("images/shoham.jpeg"); 
+    <style>  elementor - v3.9.0 - 06-12-2022 
+    .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}
+    </style>
+     /*
 
 
 
